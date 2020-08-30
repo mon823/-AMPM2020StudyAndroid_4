@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.Button;
 
 import com.example.project816.R;
+import com.example.project816.ui.home.HomeFragment;
 
 public class MainActivity extends AppCompatActivity {
 

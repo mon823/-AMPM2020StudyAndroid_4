@@ -11,35 +11,51 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@android:drawable/ic_menu_preferences"
-        tools:layout_editor_absoluteX="322dp"
-        tools:layout_editor_absoluteY="77dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.859"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.035" />
 
     <Button
         android:id="@+id/finish"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="finish"
-        tools:layout_editor_absoluteX="290dp"
-        tools:layout_editor_absoluteY="636dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.897"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.887" />
 
     <Button
         android:id="@+id/addPicture"
         android:layout_width="345dp"
         android:layout_height="45dp"
         android:text="사진 추가하기"
-        tools:layout_editor_absoluteX="33dp"
-        tools:layout_editor_absoluteY="546dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.53"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.784" />
 
     <com.google.android.material.textfield.TextInputLayout
-        android:layout_width="343dp"
-        android:layout_height="373dp"
-        tools:layout_editor_absoluteX="35dp"
-        tools:layout_editor_absoluteY="135dp">
+        android:id="@+id/textInputLayout"
+        android:layout_width="328dp"
+        android:layout_height="422dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.31">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/textMake"
             android:layout_width="match_parent"
-            android:layout_height="389dp"
+            android:layout_height="412dp"
             android:hint="text"
             android:outlineAmbientShadowColor="#000000"
             android:outlineSpotShadowColor="#000000"
@@ -52,8 +68,12 @@
         android:layout_height="49dp"
         android:ems="10"
         android:inputType="date"
-        tools:layout_editor_absoluteX="91dp"
-        tools:layout_editor_absoluteY="79dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.321"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.038" />
 
     <TextView
         android:id="@+id/date"
@@ -61,7 +81,11 @@
         android:layout_height="wrap_content"
         android:text="날짜 :"
         android:textSize="20dp"
-        tools:layout_editor_absoluteX="35dp"
-        tools:layout_editor_absoluteY="87dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.071"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.051" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

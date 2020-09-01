@@ -27,7 +27,6 @@ import com.google.firebase.auth.GoogleAuthProvider;
 
 public class MainActivity extends AppCompatActivity implements GoogleApiClient.OnConnectionFailedListener {
 
-    //Button mainButton;
 
     private SignInButton btn_google; //구글 로그인 버튼
     private FirebaseAuth auth; //파이어 베이스 인증 객체
@@ -59,17 +58,6 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
                 startActivityForResult(intent, REQ_SIGN_GOOGLE);
             }
         });
-
-
-//       mainButton=(Button)findViewById(R.id.mainButton);
-//
-//        mainButton.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Intent intent = new Intent(MainActivity.this, Main2Activity.class);
-//                startActivity(intent);
-//            }
-//        });
 
     }
 
